@@ -1,7 +1,6 @@
 S = input()
-c = "abcedfghijklmfpqrstuvwxyz"
+c = "abcdefghijklmnopqrstuvwxyz"
 
-print(S)
 
 for i in c:
     print(S.find(i), end=" ")
