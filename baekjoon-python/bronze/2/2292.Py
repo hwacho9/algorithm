@@ -1,5 +1,8 @@
-N, M = map(int, input().split())
-C = list(map(int, input().split()))
+N = int(input())
+num = 1
 
-for i in C:
-    
+for i in range(N):
+    num += 6 * i
+    if N <= num:
+        print(i + 1)
+        break
