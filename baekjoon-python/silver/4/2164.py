@@ -3,6 +3,7 @@ from collections import deque
 
 N = int(sys.stdin.readline())
 deque = deque([i for i in range(1, N + 1)])
+print(deque)
 
 while len(deque) != 1:
     deque.popleft()
