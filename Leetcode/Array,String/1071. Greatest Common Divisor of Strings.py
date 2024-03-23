@@ -1,4 +1,4 @@
-def gcdOfStrings(self. str1: str, str2: str) -> str:
+def gcdOfStrings(str1: str, str2: str) -> str:
     str = []
 
     # print(str1[2:])
@@ -9,8 +9,8 @@ def gcdOfStrings(self. str1: str, str2: str) -> str:
     # if len(str1) > len(str2):
     #     return self.gcdOfStrings()
     if len(str1) > len(str2):
-        return self.gcdOfStrings(str1[len(str2):],str2)
-    
+        return self.gcdOfStrings(str1[len(str2) :], str2)
+
     if str2 in str1:
         for i in range(len(str2)):
             str.append(str2[i])

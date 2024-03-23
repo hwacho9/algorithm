@@ -26,6 +26,21 @@ def reverseVowels(s: str) -> str:
 
 print(reverseVowels("hello"))
 
+"""Example 1:
+
+Input: s = "hello"
+Output: "holle"
+Example 2:
+
+Input: s = "leetcode"
+Output: "leotcede"
+
+Keyword arguments:
+argument -- description
+Return: return_description
+"""
+
+
 # for i in "hello":
 #     if i == "e":
 #         print(i)
