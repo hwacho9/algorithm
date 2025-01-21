@@ -14,6 +14,11 @@ int main()
             cin >> array[i];
         }
 
+        if (array[0] == 0 || array[1] == 0 || array[2] == 0)
+        {
+            break;
+        }
+
         sort(array, array + 3);
 
         if (array[0] * array[0] + array[1] * array[1] == array[2] * array[2])
@@ -23,11 +28,6 @@ int main()
         else
         {
             cout << "wrong" << endl;
-        }
-
-        if (array[0] == 0 || array[1] == 0 || array[2] == 0)
-        {
-            break;
         }
     }
 
