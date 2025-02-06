@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// 다른 알고리즘 찾아보기
+
 // Function to check if a number is prime
 bool prime(int n)
 {
